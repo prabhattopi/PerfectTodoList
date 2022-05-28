@@ -1,0 +1,47 @@
+.yoyo{
+    
+   
+    top: 0;
+    left: 0;
+    width: 400px;
+    min-height: 200px;
+    border: 1px solid black;
+    margin: auto;
+   
+  
+ 
+
+}
+
+h1{
+    text-align: center;
+}
+
+.input input{
+    width: 290px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+}
+.input button{
+    padding: 13px 10px;
+    width: 70px;
+    margin: 10px;
+    border: none;
+    background-color: black;
+    color: wheat;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    outline: none;
+    cursor: pointer;
+    
+}
+.input button:disabled{
+    background-color:rgb(190, 185, 185) ;
+    pointer-events: none;
+}

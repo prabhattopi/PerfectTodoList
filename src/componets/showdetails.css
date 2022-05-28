@@ -1,0 +1,7 @@
+.Mall{
+    display: none;
+
+}
+.Mall.active{
+    display: block;
+}
